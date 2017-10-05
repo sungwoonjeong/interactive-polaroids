@@ -16,6 +16,30 @@ html {
   position: absolute;
 }
 
+.polaroid:first-child {
+  position: relative;
+  left: 30%;
+  top: 20%;
+  transform: translate(-37%, 62%) rotate(-12deg);
+  z-index: 1;
+}
+
+.polaroid:nth-child(2) {
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  transform: translate(-40%, 32%) rotate(5deg);
+  z-index: 3;
+}
+
+.polaroid:last-child {
+  position: relative;
+  left: 50%;
+  top: 20%;
+  transform: translate(-40%, -35%) rotate(35deg);
+  z-index: 2;
+}
+
 .polaroid > img {
   display: block;
   width: 100%;
